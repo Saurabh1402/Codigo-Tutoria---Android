@@ -1,0 +1,51 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <!--PADDING-->
+    <dimen name="card_view_padding_left">32dp</dimen>
+    <dimen name="card_view_padding_right">32dp</dimen>
+    <dimen name="card_view_padding_top">16dp</dimen>
+    <dimen name="card_view_padding_bottom">16dp</dimen>
+
+    <!--MARGIN-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_regular">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--RADIUS-->
+    <dimen name="radius_large">8dp</dimen>
+    <dimen name="radius_medium">4dp</dimen>
+    <dimen name="radius_regular">2dp</dimen>
+
+    <!--ELEVATION-->
+    <dimen name="elevation_regular">2dp</dimen>
+    <dimen name="elevation_large">4dp</dimen>
+    <dimen name="transform_z">2dp</dimen>
+
+    <!--FONT SIZE-->
+    <dimen name="header_font">32sp</dimen>
+
+    <!--Activity Home-->
+    <dimen name="activity_home_card_view_height">144dp</dimen>
+    <dimen name="activity_home_card_view_image">112dp</dimen>
+
+    <!--Progress Bar-->
+    <dimen name="prgress_bar_medium">72dp</dimen>
+    <dimen name="prgress_bar_large">96dp</dimen>
+    <dimen name="prgress_bar_regular">56dp</dimen>
+    <dimen name="prgress_bar_small">40dp</dimen>
+
+    <dimen name="snakebar_height">56dp</dimen>
+    <dimen name="snakebar_margin_top">12dp</dimen>
+    <dimen name="snakebar_margin_left">20dp</dimen>
+    <dimen name="snakebar_fontsize">14sp</dimen>
+
+    <dimen name="padding_text_regular">16dp</dimen>
+    <dimen name="padding_medium">24dp</dimen>
+    <dimen name="padding_large">48dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+</resources>

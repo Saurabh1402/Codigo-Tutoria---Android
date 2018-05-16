@@ -1,0 +1,73 @@
+   .data-container{
+		   position:relative;
+		   background:#fff;
+		   border-radius:5px 5px 5px 5px;
+		   color:#555;
+		   z-index:5;
+		   font-size:20px;
+		   margin:3%;
+		   margin-bottom:2%;
+		   padding:5%;
+		   
+		   }
+		   pre{
+				overflow-x:auto;
+				background:#eee;
+				padding:2%;
+			}
+			*{
+				font-size:14px;
+			}
+		h1,h2{
+			text-align:center; 
+			color:#D32F2F;
+			font-size:25px;
+		}
+		b{
+			color:#009688;
+		}
+		table{
+		
+		}
+	tr,td,td{
+		padding:10px;
+		border:1px solid black;
+		text-align:center;
+	}
+	table{
+		width:100%;
+		overflow-x:hidden;
+		border-collapse:collapse;
+		}
+	.parent-container{
+		padding-top:7%;
+		opacity:1;
+		transition:all 0.5s;
+	}
+img{
+	width:100%;
+}
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            #4B35D7;
+  } 
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            #D9411F;
+  } 
+a:hover   {
+  /* Applies to links under the pointer */
+  text-decoration:  underline;
+  font-weight:      bold;
+  color:            #C74545;
+  } 
+a:active  {
+  /* Applies to activated links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color: #4B35D7;
+  } 

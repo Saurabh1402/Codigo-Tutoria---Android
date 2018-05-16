@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:translationZ="3dp"
+    android:layout_alignParentStart="true"
+        >
+        <ProgressBar
+            android:layout_width="@dimen/prgress_bar_small"
+            android:layout_height="@dimen/prgress_bar_small"
+            android:layout_margin="@dimen/margin_large"
+            android:id="@+id/language_view_webview_container_progressbar"
+            />
+
+</LinearLayout>

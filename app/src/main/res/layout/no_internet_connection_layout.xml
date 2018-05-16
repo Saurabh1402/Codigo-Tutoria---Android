@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#77eeeeee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/snakebar_height"
+        android:background="#444444"
+        android:paddingBottom="@dimen/snakebar_margin_top"
+        android:paddingLeft="@dimen/snakebar_margin_top"
+        android:paddingTop="@dimen/snakebar_margin_top"
+        android:paddingRight="@dimen/snakebar_margin_top">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="No Internet Connection!!"
+            android:textColor="@color/white"
+            android:textSize="@dimen/snakebar_fontsize" />
+
+        <Button
+            android:id="@+id/no_internet_connection_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="try again"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/no_internet_connection"/>
+
+
+</LinearLayout>

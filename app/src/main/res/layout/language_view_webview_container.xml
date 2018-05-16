@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="?attr/actionBarSize"
+    >
+    <include layout="@layout/progressbar_layout"
+        android:id="@+id/langauge_view_progressbar"
+        android:visibility="visible"
+        />
+    <include layout="@layout/no_internet_connection_layout"
+        android:id="@+id/langauge_view_no_internet_connection"
+        android:visibility="gone"
+        />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/language_view_webview"
+        android:layout_above="@id/adView"
+
+        />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        android:elevation="2dp"
+        android:translationZ="2dp"
+        ads:adUnitId="ca-app-pub-9162090196692742/1552432667">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
